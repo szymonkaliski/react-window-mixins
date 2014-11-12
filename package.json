@@ -1,0 +1,19 @@
+{
+  "name": "react-window-mixins",
+  "version": "0.0.1",
+  "description": "React mixins for working with browser window events.",
+  "keywords": [
+    "react",
+    "react-mixin",
+    "browser",
+    "events"
+  ],
+  "homepage": "https://github.com/szymonkaliski/react-window-mixins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szymonkaliski/react-window-mixins.git"
+  },
+  "main": "index.js",
+  "author": "Szymon Kaliski <contact@treesmovethemost.com>",
+  "license": "ISC"
+}
