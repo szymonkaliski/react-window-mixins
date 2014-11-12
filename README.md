@@ -15,7 +15,7 @@ Useful for calculating sizes for more complicated layouts, handling changes for 
 ```javascript
 var OnResize = require("react-window-mixins").OnResize;
 
-React.createComponent({
+React.createClass({
   mixins: [ OnResize ],
 
   render: function() {
@@ -32,7 +32,7 @@ You can also write your own `onResize` handler:
 ```javascript
 var OnResize = require("react-window-mixins").OnResize;
 
-React.createComponent({
+React.createClass({
   mixins: [ OnResize ],
 
   onResize: function() {
@@ -57,7 +57,7 @@ Useful for elements interacting with scroll position, and even writing parallax 
 ```javascript
 var OnScroll = require("react-window-mixins").OnScroll;
 
-React.createComponent({
+React.createClass({
   mixins: [ OnScroll ],
 
   render: function() {
@@ -74,7 +74,7 @@ You can also write your own `onScroll` handler:
 ```javascript
 var OnScroll = require("react-window-mixins").OnScroll;
 
-React.createComponent({
+React.createClass({
   mixins: [ OnScroll ],
 
   onScroll: function() {
