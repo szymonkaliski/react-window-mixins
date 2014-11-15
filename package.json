@@ -15,5 +15,8 @@
   },
   "main": "index.js",
   "author": "Szymon Kaliski <contact@treesmovethemost.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash.throttle": "^2.4.1"
+  }
 }
