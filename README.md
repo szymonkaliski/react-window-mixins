@@ -21,7 +21,8 @@ React.createClass({
   render: function() {
     return React.DOM.div(
       null,
-      "current window size: " + this.state.width + ", " + this.state.height
+      "current window size: " + this.state.window.width + ", " + this.state.window.height,
+      "current document size: " + this.state.document.width + ", " + this.state.document.height
     );
   }
 });

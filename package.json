@@ -1,6 +1,6 @@
 {
   "name": "react-window-mixins",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React mixins for working with browser window events.",
   "keywords": [
     "react",
