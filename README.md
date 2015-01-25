@@ -93,3 +93,24 @@ React.createClass({
 });
 ```
 
+## OnUnload
+
+Useful for defining handlers for the `unload` and `beforeunload` events. Event
+handlers are only added to the `window` if they are defined. No default handlers
+are added automatically.
+
+```javascript
+var OnUnload = require("react-window-mixins").OnUnload;
+
+React.createClass({
+  mixins: [ OnUnload ],
+
+  onUnload: function() {
+    // Clean up any resources
+  },
+
+  onBeforeUnload: function() {
+    return 'Are you sure you want to leave the page?';
+  }
+});
+```
